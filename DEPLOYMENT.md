@@ -1,14 +1,14 @@
-# 🚀 Deployment Guide
+# Deployment Guide
 
 This guide will help you deploy your YouTube Analytics Dashboard to Vercel and GitHub.
 
-## 📋 Prerequisites
+## Prerequisites
 
 - GitHub account
 - Vercel account (free)
 - YouTube Data API key
 
-## 🔑 Step 1: Get YouTube Data API Key
+## Step 1: Get YouTube Data API Key
 
 1. **Go to Google Cloud Console**
    - Visit [console.cloud.google.com](https://console.cloud.google.com/)
@@ -30,7 +30,7 @@ This guide will help you deploy your YouTube Analytics Dashboard to Vercel and G
    - Copy the generated API key
    - **Important**: Restrict the key to YouTube Data API v3
 
-## 📁 Step 2: Prepare Files for GitHub
+## Step 2: Prepare Files for GitHub
 
 ### Files to Include in GitHub:
 ```
@@ -59,7 +59,7 @@ youtube-analytics/
 - `.env.local` - Your API key (keep secret!)
 - `*.tsbuildinfo` - TypeScript cache
 
-## 🐙 Step 3: Create GitHub Repository
+## Step 3: Create GitHub Repository
 
 1. **Create New Repository**
    - Go to [github.com](https://github.com)
@@ -87,7 +87,7 @@ youtube-analytics/
    git push -u origin main
    ```
 
-## ⚡ Step 4: Deploy to Vercel
+## Step 4: Deploy to Vercel
 
 1. **Go to Vercel**
    - Visit [vercel.com](https://vercel.com)
@@ -114,7 +114,7 @@ youtube-analytics/
    - Wait for deployment to complete
    - Your app will be live at: `https://your-project-name.vercel.app`
 
-## 🔧 Step 5: Verify Deployment
+## Step 5: Verify Deployment
 
 1. **Test Your App**
    - Visit your Vercel URL
@@ -125,7 +125,7 @@ youtube-analytics/
    - Go to Vercel Dashboard → Your Project → Settings → Environment Variables
    - Ensure `YOUTUBE_API_KEY` is set correctly
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues:
 
@@ -156,7 +156,7 @@ npm run build
 npm start
 ```
 
-## 📊 Monitoring
+## Monitoring
 
 ### Vercel Analytics
 - Go to Vercel Dashboard → Your Project → Analytics
@@ -167,7 +167,7 @@ npm start
 - Monitor API usage and quotas
 - Free tier: 10,000 units/day
 
-## 🔄 Updates
+## Updates
 
 To update your deployed app:
 ```bash
@@ -179,7 +179,7 @@ git push origin main
 # Vercel will automatically redeploy
 ```
 
-## 🎉 Success!
+## Success!
 
 Your YouTube Analytics Dashboard is now live! 
 
@@ -188,7 +188,3 @@ Your YouTube Analytics Dashboard is now live!
 - Monitor usage and performance
 - Add new features
 - Consider custom domain
-
----
-
-**Need Help?** Check the [Issues](https://github.com/your-username/youtube-analytics/issues) page or create a new issue.

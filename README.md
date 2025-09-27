@@ -117,7 +117,7 @@ Open [http://localhost:3000](http://localhost:3000) to see the application.
 - **Railway**: Connect GitHub repo, add environment variables
 - **DigitalOcean App Platform**: Connect repo, configure environment
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 youtube-analytics/

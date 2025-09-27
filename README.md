@@ -2,7 +2,7 @@
 
 A modern, feature-rich YouTube channel analytics tool built with Next.js, TypeScript, and TailwindCSS. Analyze any YouTube channel's performance, revenue estimates, and get AI-powered insights.
 
-## ✨ Features
+## Features
 
 - **Real-time Analytics**: Get live data from YouTube Data API
 - **AI-Powered Insights**: Smart recommendations based on channel performance
@@ -13,7 +13,7 @@ A modern, feature-rich YouTube channel analytics tool built with Next.js, TypeSc
 - **Dark/Light Mode**: Beautiful theme switching
 - **Revenue Estimates**: Conservative, base, and aggressive projections
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
@@ -23,7 +23,7 @@ A modern, feature-rich YouTube channel analytics tool built with Next.js, TypeSc
 - **Icons**: Lucide React
 - **Deployment**: Vercel
 
-## 📊 Analytics Features
+## Analytics Features
 
 ### Core Metrics
 - Subscriber count and growth
@@ -46,13 +46,13 @@ A modern, feature-rich YouTube channel analytics tool built with Next.js, TypeSc
 - Revenue optimization tips
 - Growth trend analysis
 
-## 🌍 Internationalization
+## Internationalization
 
 - **English**: Complete professional analytics
 - **Korean**: 한국어 지원
 - **Chinese**: 中文支持
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - Node.js 18+ 
@@ -143,7 +143,7 @@ youtube-analytics/
 └── README.md
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### TailwindCSS
 The project uses a custom Tailwind configuration with:
@@ -168,7 +168,7 @@ The app uses YouTube Data API v3 to fetch:
 
 **Rate Limits**: YouTube API has quotas. The app is optimized to minimize API calls.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -176,11 +176,11 @@ The app uses YouTube Data API v3 to fetch:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - YouTube Data API v3
 - Next.js team
@@ -189,13 +189,3 @@ This project is open source and available under the [MIT License](LICENSE).
 - Framer Motion
 - Lucide React
 
-## 📞 Support
-
-If you encounter any issues:
-1. Check the [Issues](https://github.com/your-username/youtube-analytics/issues) page
-2. Create a new issue with detailed description
-3. Include error messages and steps to reproduce
-
----
-
-**Made with ❤️ using Next.js and modern web technologies**
